@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E779A5DC2002ACF0002A3DCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E779A5DB2002ACF0002A3DCE /* AppDelegate.swift */; };
-		E779A5DE2002ACF0002A3DCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E779A5DD2002ACF0002A3DCE /* ViewController.swift */; };
 		E779A5E12002ACF0002A3DCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E779A5DF2002ACF0002A3DCE /* Main.storyboard */; };
 		E779A5E32002ACF0002A3DCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E779A5E22002ACF0002A3DCE /* Assets.xcassets */; };
 		E779A5E62002ACF0002A3DCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E779A5E42002ACF0002A3DCE /* LaunchScreen.storyboard */; };
+		E779A5EF2002ADA6002A3DCE /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E779A5EE2002ADA6002A3DCE /* ImageViewController.swift */; };
+		E7DEEE402002B86800A0E7D0 /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DEEE3F2002B86800A0E7D0 /* DemoURLs.swift */; };
+		E7DEEE422002B89500A0E7D0 /* oval.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7DEEE412002B89500A0E7D0 /* oval.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E779A5D82002ACF0002A3DCE /* CassiniBatista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CassiniBatista.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E779A5DB2002ACF0002A3DCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E779A5DD2002ACF0002A3DCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E779A5E02002ACF0002A3DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E779A5E22002ACF0002A3DCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E779A5E52002ACF0002A3DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E779A5E72002ACF0002A3DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E779A5EE2002ADA6002A3DCE /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		E7DEEE3F2002B86800A0E7D0 /* DemoURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURLs.swift; sourceTree = "<group>"; };
+		E7DEEE412002B89500A0E7D0 /* oval.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oval.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		E779A5DA2002ACF0002A3DCE /* CassiniBatista */ = {
 			isa = PBXGroup;
 			children = (
-				E779A5DB2002ACF0002A3DCE /* AppDelegate.swift */,
-				E779A5DD2002ACF0002A3DCE /* ViewController.swift */,
+				E7DEEE412002B89500A0E7D0 /* oval.jpg */,
 				E779A5DF2002ACF0002A3DCE /* Main.storyboard */,
-				E779A5E22002ACF0002A3DCE /* Assets.xcassets */,
-				E779A5E42002ACF0002A3DCE /* LaunchScreen.storyboard */,
+				E7DEEE3F2002B86800A0E7D0 /* DemoURLs.swift */,
+				E779A5EE2002ADA6002A3DCE /* ImageViewController.swift */,
+				E779A5ED2002AD15002A3DCE /* Supporting Files */,
 				E779A5E72002ACF0002A3DCE /* Info.plist */,
 			);
 			path = CassiniBatista;
+			sourceTree = "<group>";
+		};
+		E779A5ED2002AD15002A3DCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E779A5DB2002ACF0002A3DCE /* AppDelegate.swift */,
+				E779A5E22002ACF0002A3DCE /* Assets.xcassets */,
+				E779A5E42002ACF0002A3DCE /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E779A5E62002ACF0002A3DCE /* LaunchScreen.storyboard in Resources */,
+				E7DEEE422002B89500A0E7D0 /* oval.jpg in Resources */,
 				E779A5E32002ACF0002A3DCE /* Assets.xcassets in Resources */,
 				E779A5E12002ACF0002A3DCE /* Main.storyboard in Resources */,
 			);
@@ -136,8 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E779A5DE2002ACF0002A3DCE /* ViewController.swift in Sources */,
+				E779A5EF2002ADA6002A3DCE /* ImageViewController.swift in Sources */,
 				E779A5DC2002ACF0002A3DCE /* AppDelegate.swift in Sources */,
+				E7DEEE402002B86800A0E7D0 /* DemoURLs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W94JTUT2T9;
+				DEVELOPMENT_TEAM = 9JCCFT2CXS;
 				INFOPLIST_FILE = CassiniBatista/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.haraldbatista.CassiniBatista;
@@ -290,7 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W94JTUT2T9;
+				DEVELOPMENT_TEAM = 9JCCFT2CXS;
 				INFOPLIST_FILE = CassiniBatista/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.haraldbatista.CassiniBatista;
